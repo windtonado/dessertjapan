@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* unvisited link */
+nav{
+  background-color: rgb(58, 8, 8);
+
+}
+.nav-item:link {
+  color: orange!important;
+}
+
+/* visited link */
+.nav-item:visited {
+  background-color: none;
+}
+
+/* mouse over link */
+.nav-item:hover {
+  color: orange;
+}
+
+/* selected link */
+.nav-item:active {
+  background-color: orange;
+}
+a.navbar-brand{
+  color: orange!important;
+  padding-left: 175px ;
+  font-size: 30px;
+}
+li.active{
+  background-color: orange!important;
+}
+a.nav-link{
+  color:white!important;
+}
+#navbarNavDropdown{
+  padding-left: 500px;
+  height: 100px;
+}
+li.nav-item{
+  padding: 10px 10px;
+    z-index: +1;
+}
+a.nav-link{
+  padding-top:80px;
+}
