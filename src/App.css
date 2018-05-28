@@ -30,46 +30,72 @@
 /* unvisited link */
 nav{
   background-color: rgb(58, 8, 8);
-
+  height: 80px;
 }
+
 .nav-item:link {
-  color: orange!important;
+  color: none;
 }
 
-/* visited link */
+
 .nav-item:visited {
   background-color: none;
 }
 
-/* mouse over link */
+
 .nav-item:hover {
-  color: orange;
+  color: none;
 }
 
-/* selected link */
+
 .nav-item:active {
-  background-color: orange;
+  background-color: none;
 }
+
 a.navbar-brand{
   color: orange!important;
   padding-left: 175px ;
   font-size: 30px;
 }
-li.active{
+
+a.nav-link{
+  top: 50%;
+  color:white!important;
+  z-index: +1;
+}
+div.collapse{
+
+  margin-left: 50%;
+  z-index: +1;
+}
+#pills-home-tap{
+
+}
+#pills-profile-tab{
+
+}
+#pills-contact-tap{
+  
+}
+#pills-contact-tap{
+  
+}
+
+li.nav-item{
+  margin-top: 20%;
+height: 100px;
+}
+
+a.active{
+  
   background-color: orange!important;
 }
-a.nav-link{
-  color:white!important;
+
+button.navbar-toggler{
+  background-color: orange;
 }
-#navbarNavDropdown{
-  padding-left: 500px;
+
+ul.nav{
   height: 100px;
-}
-li.nav-item{
-  text-align: center;
-  padding: 10px 10px;
-    z-index: +1;
-}
-a.nav-link{
-  padding-top:80px;
+  top:100%;
 }
