@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from 'react-router-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App2 = () => (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  )
+
+ReactDOM.render(<App2 />, document.getElementById('root'));
 registerServiceWorker();

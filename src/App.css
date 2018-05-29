@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+background-image: url(/-Sakura-Petals-Sakura.jpg);
+
 }
 
 .App-logo {
@@ -28,10 +30,12 @@
 }
 
 /* unvisited link */
-nav{
-  background-color: rgb(58, 8, 8);
-  height: 80px;
+nav.navbar{
+  background-color: rgb(44, 22, 15);
+  height: 100px;
 }
+
+
 
 .nav-item:link {
   color: none;
@@ -53,49 +57,207 @@ nav{
 }
 
 a.navbar-brand{
-  color: orange!important;
-  padding-left: 175px ;
-  font-size: 30px;
+  color: rgb(255,140,0)!important;
+padding-left: 10px;
+  font-size: 34px;
 }
 
 a.nav-link{
+  padding-top: 150px;
+  height: 200px;
   top: 50%;
   color:white!important;
   z-index: +1;
 }
 div.collapse{
-
-  margin-left: 50%;
+  height: 100px;
+  margin-left: 260px;
   z-index: +1;
 }
 #pills-home-tap{
+  height: 100px;
+}
 
-}
-#pills-profile-tab{
-
-}
-#pills-contact-tap{
-  
-}
-#pills-contact-tap{
-  
-}
 
 li.nav-item{
-  margin-top: 20%;
+  color:white!important;
+  text-decoration: none;
+  margin-bottom: 50%;
 height: 100px;
 }
 
+li:link {
+  color: white;
+}
+
+/* visited link */
+li:visited {
+  color: white;
+}
+
+/* mouse over link */
+li:hover {
+  color: white;
+}
+
+/* selected link */
+li:active {
+  color: white;
+}
+a.nav-link{
+  text-decoration: none;
+}
 a.active{
   
-  background-color: orange!important;
+  background-color: rgb(255,140,0)!important;
 }
 
 button.navbar-toggler{
-  background-color: orange;
+  background-color: rgb(255,140,0);
 }
 
 ul.nav{
-  height: 100px;
-  top:100%;
+  padding-bottom: 5rem;
+height:260px;
+padding-bottom:0px;
 }
+
+.carousel-inner{
+
+height:300px;
+}
+
+#carouselExampleIndicators{
+margin-block-start: 2%;
+  margin-inline-start: 18%;
+  margin-inline-end: 18%;
+object-fit: cover;
+  object-position: center;
+}
+
+
+a.text{
+  color:rgb(255,140,0)!important;
+  font-size: 20px;
+width: 100px!important;
+  z-index: +1;
+  padding: 0px;
+  margin: 0px;
+}
+nav.navbar2{
+
+  background-color: rgb(255,140,0);
+  height: 3px;
+  padding: 0px;
+  margin-left: 78px;
+}
+nav.navbar3{
+
+  background-color: rgb(255,140,0);
+  height: 3px;
+  padding: 0px;
+  margin-right: 74px;
+}
+#space{
+  height: 30px;
+}
+div.col-2{
+  padding-top: 30px;
+  padding-bottom:50px;
+  padding-left:0px;
+  padding-right:0px;
+  margin:0px;
+  width: 50px;
+  height: 50px;
+}
+div.col{
+  width: 200px;
+  padding-top: 50px;
+  padding-bottom:10px;
+  padding-left:0px;
+  padding-right:0px;
+  margin: 0px;
+  height: 50px;
+}
+.line{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#banner{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+img.img-thumbnail{
+
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  margin:0px;
+}
+#reg{
+  padding: 10px;
+  margin: 0px;
+}
+
+#review{
+  width: 300px;
+  height: 190px;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+  padding-bottom: 10px;
+}
+#layoutrew{
+
+  margin-left: 43px;
+  margin-right: 50px;
+  width: 1210px;
+
+}
+#rew{
+padding: 0px;
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+border: 1px solid rgb(255,140,0);
+padding-bottom: 10px;
+}
+
+@font-face{
+  font-family:bangna-new ;
+  src: url(bangna-new.ttf);
+}
+a{
+  font-family:bangna-new ;
+}
+a.navbar-brand{
+  font-weight: bold;
+}
+
+td{
+  font-family:bangna-new ;
+  width: 300px;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(255,140,0)
+}
+img.rounded{
+  width: 60px;
+  height: 60px;
+  margin-left: 270px;
+
+}
+
+#explain{
+  width: 1000px;
+  height: 650px;
+}
+#explain2{
+  width: 1000px;
+  height: 300px;
+}
+
+
